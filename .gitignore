@@ -1,0 +1,11 @@
+### Builds ###
+target
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Process ###
+.attach*
