@@ -3,15 +3,14 @@ spring:
     allow-bean-definition-overriding: true
   kafka:
     bootstrap-servers: 127.0.0.1:9092
-    admin:
-      client-id: test-id
+    client-id: test-id
     consumer:
       auto-offset-reset: earliest
       enable-auto-commit: true
       auto-commit-interval: 5s
+      group-id: sandbox-group-id
     streams:
       application-id: streams-app-id
-
 
 application:
   kafka:
